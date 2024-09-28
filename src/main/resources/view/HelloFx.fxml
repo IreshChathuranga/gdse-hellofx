@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="ancPane2" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #636554;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse.hellofx.controller.HelloFxController">
+   <children>
+      <Button fx:id="btnButton" layoutX="146.0" layoutY="241.0" mnemonicParsing="false" onAction="#btnSampleOnAction" prefHeight="47.0" prefWidth="308.0" style="-fx-background-color: #2ab5bf;" text="Sign In" textFill="#ecf2f2" />
+      <TextField fx:id="txtTextField" layoutX="138.0" layoutY="74.0" onAction="#txtTextFieldOnAction" prefHeight="37.0" prefWidth="325.0" promptText="username" style="-fx-background-radius: 40;" />
+      <PasswordField fx:id="passwordFiled" layoutX="138.0" layoutY="141.0" prefHeight="37.0" prefWidth="325.0" promptText="password" style="-fx-background-radius: 40;" />
+      <Label fx:id="lblLable" layoutX="281.0" layoutY="200.0" prefHeight="17.0" prefWidth="176.0" />
+   </children>
+</AnchorPane>
